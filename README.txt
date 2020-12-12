@@ -1,3 +1,4 @@
+Note: The training data set can be found here: https://bit.ly/3dyVBQ9
 Note: Before running train.py and test.py, please download "resnet50-pre.pth" and "SGD100.pth" from https://1drv.ms/u/s!AuvCiXg8SwEPsRp3XArwWVhrykoD?e=tcVTnR
 
 resnet50-pre.th: The trained model provided by pytorch (https://download.pytorch.org/models/resnet50-19c8e357.pth). It's used for transfer learning.
@@ -9,4 +10,5 @@ train.py: It can load and split dataset into train, validation and test dataset.
 
 test.py: It will load our optimized resnet50 model "SGD100.pth" and generate predict accuracy and confusion matrix. 
 Note: the test dataset name have to be "Images_test.npy" and "Labels_test.npy". Or you can change it in the line 20, 21.
+
 
